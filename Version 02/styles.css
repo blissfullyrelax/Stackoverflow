@@ -96,13 +96,22 @@ main {
     background-color: #1c1d1f;
     padding-top: 2rem;
     padding-right: 1rem;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
     margin-bottom: 2rem;
-    margin-left: 2rem;
-    margin-right: 3rem;
     position: relative;
     color: white;
+}
+
+.full-width-view {
+    position: absolute;
+    top: 0;
+    left: 50%; /* Start from the center of the hero-container */
+    transform: translateX(-50vw); /* Extend the view to the left edge of the screen */
+    width: 100vw; /* Stretch across the entire width of the viewport */
+    height: 100%; /* Match the height of the hero-container */
+    background-color: #1c1d1f; /* Same background color as hero-container */
+    z-index: -1; /* Place it behind the hero content */
 }
 
 .what-youll-learn {
