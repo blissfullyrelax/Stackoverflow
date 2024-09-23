@@ -29,16 +29,16 @@ nav {
     margin: 0 auto;
 }
 
-.logo img {
+.unlock-logo img {
     height: 34px;
 }
 
-.nav-links {
+.unlock-nav-links {
     display: flex;
     align-items: center;gap: 1.5rem;
 }
 
-.search-bar {
+.unlock-search-bar {
     display: flex;
     border: 1px solid #1c1d1f;
     border-radius: 50px;
@@ -46,13 +46,13 @@ nav {
     width: 400px;
 }
 
-.search-bar input {
+.unlock-search-bar input {
     border: none;
     padding: 0.5rem 1rem;
     width: 100%;
 }
 
-.search-bar button {
+.unlock-search-bar button {
     background-color: #f7f9fa;
     color: #1c1d1f;
     border: none;
@@ -60,13 +60,13 @@ nav {
     cursor: pointer;
 }
 
-.auth-buttons {
+.unlock-auth-buttons {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.auth-buttons button, .auth-buttons .cart-icon {
+.unlock-auth-buttons button, .unlock-auth-buttons .unlock-cart-icon {
     padding: 0.5rem 1rem;
     border: 1px solid #1c1d1f;
     background-color: white;
@@ -76,12 +76,12 @@ nav {
     color: #1c1d1f;
 }
 
-.auth-buttons .signup {
+.unlock-auth-buttons .unlock-signup {
     background-color: #1c1d1f;
     color: white;
 }
 
-.auth-buttons .language {
+.unlock-auth-buttons .unlock-language {
     border: none;
 }
 
@@ -92,7 +92,7 @@ main {
 }
 
 /* Hero section styles */
-.hero-container {
+.unlock-hero-container {
     background-color: #1c1d1f;
     padding-top: 2rem;
     padding-right: 1rem;
@@ -103,7 +103,7 @@ main {
     color: white;
 }
 
-.full-width-view {
+.unlock-full-width-view {
     position: absolute;
     top: 0;
     left: 50%; /* Start from the center of the hero-container */
@@ -114,52 +114,52 @@ main {
     z-index: -1; /* Place it behind the hero content */
 }
 
-.what-youll-learn {
+.unlock-what-youll-learn {
     border: 1px solid #d1d7dc;
     padding: 1.5rem 2rem;
     margin-bottom: 2.5rem;
 }
 
-.breadcrumb {
+.unlock-breadcrumb {
     font-size: 0.9rem;
     margin-bottom: 1rem;
 }
 
-.breadcrumb a {
+.unlock-breadcrumb a {
     color: #cec0fc;
     text-decoration: none;
 }
 
-.hero {
+.unlock-hero {
     display: flex;
     align-items: center;
 }
 
-.hero-content {
+.unlock-hero-content {
     max-width: 700px;
 }
 
-.hero h1 {
+.unlock-hero h1 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 0.8rem;
     line-height: 1.2;
 }
 
-.hero .subtitle {
+.unlock-hero .unlock-subtitle {
     font-size: 1.4rem;
     margin-bottom: 1.2rem;
     font-weight: 400;
 }
 
-.course-meta {
+.unlock-course-meta {
     display: flex;
     align-items: center;
     gap: 0.8rem;
     margin-bottom: 0.8rem;
 }
 
-.bestseller {
+.unlock-bestseller {
     background-color: #eceb98;
     color: #3d3c0a;
     padding: 0.3rem 0.6rem;
@@ -167,22 +167,22 @@ main {
     font-size: 0.9rem;
 }
 
-.rating {
+.unlock-rating {
     color: #f69c0d;
     font-weight: 700;
 }
 
-.reviews, .students {
+.unlock-reviews, .unlock-students {
     font-size: 0.95rem;
 }
 
-.author, .last-updated {
+.unlock-author, .unlock-last-updated {
     font-size: 0.95rem;
     margin-bottom: 0.6rem;
 }
 
 /* Course container styles */
-.course-container {
+.unlock-course-container {
     display: flex;
     gap: 2rem;
     margin-left: 1rem;
@@ -190,7 +190,7 @@ main {
     position: relative;
 }
 
-.hero-container {
+.unlock-hero-container {
     background-color: #1c1d1f;
     padding-top: 2rem;
     padding-right: 1rem;
@@ -201,38 +201,38 @@ main {
     color: white;
 }
 
-.course-info {
+.unlock-course-info {
     flex: 1;
     max-width: calc(100% - 400px);
 }
 
 /* What you'll learn section styles */
-.what-youll-learn {
+.unlock-what-youll-learn {
     border: 1px solid #d1d7dc;
     padding: 1.5rem 2rem;
     margin-bottom: 2.5rem;
 }
 
-.what-youll-learn h2 {
+.unlock-what-youll-learn h2 {
     font-size: 1.5rem;
     margin-bottom: 1.2rem;
 }
 
-.what-youll-learn ul {
+.unlock-what-youll-learn ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
     list-style-type: none;
 }
 
-.what-youll-learn li {
+.unlock-what-youll-learn li {
     display: flex;
     align-items: flex-start;
     font-size: 0.95rem;
     padding-right: 0.5rem;
 }
 
-.what-youll-learn li::before {
+.unlock-what-youll-learn li::before {
     content: "✓";
     margin-right: 0.5rem;
     color: #1c1d1f;
@@ -241,22 +241,22 @@ main {
 }
 
 /* Related topics styles */
-.related-topics {
+.unlock-related-topics {
     margin-bottom: 2.5rem;
 }
 
-.related-topics h2 {
+.unlock-related-topics h2 {
     font-size: 1.5rem;
     margin-bottom: 1.2rem;
 }
 
-.topic-tags {
+.unlock-topic-tags {
     display: flex;
     gap: 0.8rem;
     flex-wrap: wrap;
 }
 
-.topic-tag {
+.unlock-topic-tag {
     padding: 0.6rem 1.2rem;
     border: 1px solid #1c1d1f;
     border-radius: 50px;
@@ -267,30 +267,30 @@ main {
 }
 
 /* Course includes styles */
-.course-includes {
+.unlock-course-includes {
     margin-bottom: 2.5rem;
 }
 
-.course-includes h2 {
+.unlock-course-includes h2 {
     font-size: 1.5rem;
     margin-bottom: 1.2rem;
 }
 
-.course-includes ul {
+.unlock-course-includes ul {
     list-style-type: none;
 }
 
-.course-includes li {
+.unlock-course-includes li {
     margin-bottom: 0.3rem;
     font-size: 0.95rem;
 }
 
-.course-includes i {
+.unlock-course-includes i {
     margin-right: 0.8rem;
 }
 
 /* Course card styles */
-.course-card {
+.unlock-course-card {
     width: 350px;
     background-color: white;
     border: 1px solid #d1d7dc;
@@ -301,17 +301,17 @@ main {
     right: 2rem;
 }
 
-.preview-image {
+.unlock-preview-image {
     position: relative;
     margin-bottom: 1rem;
 }
 
-.preview-image img {
+.unlock-preview-image img {
     width: 100%;
     border-radius: 4px;
 }
 
-.play-button {
+.unlock-play-button {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -325,7 +325,7 @@ main {
     cursor: pointer;
 }
 
-.preview-image p {
+.unlock-preview-image p {
     position: absolute;
     bottom: 10px;
     left: 10px;
@@ -333,12 +333,12 @@ main {
     font-weight: bold;
 }
 
-.card-tabs {
+.unlock-card-tabs {
     display: flex;
     margin-bottom: 1rem;
 }
 
-.card-tabs button {
+.unlock-card-tabs button {
     flex: 1;
     padding: 0.75rem;
     border: 1px solid #d1d7dc;
@@ -347,23 +347,23 @@ main {
     font-weight: 700;
 }
 
-.card-tabs button.active {
+.unlock-card-tabs button.active {
     background-color: #f7f9fa;border-bottom: none;
 }
 
-.course-card h3 {
+.unlock-course-card h3 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
     color: #1c1d1f;
 }
 
-.course-card p {
+.unlock-course-card p {
     font-size: 0.9rem;
     margin-bottom: 1rem;
     color: #1c1d1f;
 }
 
-.start-subscription, .add-to-cart {
+.unlock-start-subscription, .unlock-add-to-cart {
     width: 100%;
     padding: 1rem;
     font-size: 1.1rem;
@@ -373,35 +373,35 @@ main {
     cursor: pointer;margin-bottom: 1rem;
 }
 
-.start-subscription {
+.unlock-start-subscription {
     background-color: #a435f0;
     color: white;
 }
 
-.add-to-cart {
+.unlock-add-to-cart {
     background-color: #1c1d1f;
     color: white;
 }
 
-.subscription-price, .cancel-anytime, .or, .course-price, .money-back, .full-lifetime {
+.unlock-subscription-price, .unlock-cancel-anytime, .unlock-or, .unlock-course-price, .unlock-money-back, .unlock-full-lifetime {
     text-align: center;
     margin-bottom: 0.8rem;
     font-size: 0.95rem;
     color: #1c1d1f;
 }
 
-.course-price {
+.unlock-course-price {
     font-size: 2rem;
     font-weight: 700;
 }
 
-.course-actions {
+.unlock-course-actions {
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
 }
 
-.coupon-applied {
+.unlock-coupon-applied {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -411,12 +411,12 @@ main {
     border: 1px solid #d1d7dc;
 }
 
-.coupon-applied span {
+.unlock-coupon-applied span {
     color: #1c1d1f;
     font-weight: 700;
 }
 
-.remove-coupon {
+.unlock-remove-coupon {
     background: none;
     border: none;
     color: #1c1d1f;
@@ -424,20 +424,20 @@ main {
     cursor: pointer;
 }
 
-.coupon-input {
+.unlock-coupon-input {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 1rem;
 }
 
-.coupon-input input {
+.unlock-coupon-input input {
     flex: 1;
     padding: 0.5rem;
     border: 1px solid #d1d7dc;
 }
 
-.coupon-input button {
+.unlock-coupon-input button {
     padding: 0.5rem 1rem;
     background-color: #1c1d1f;
     color: white;
@@ -447,11 +447,11 @@ main {
 
 /* Responsive styles */
 @media (max-width: 1200px) {
-    .course-info {
+    .unlock-course-info {
         max-width: 100%;
     }
 
-    .course-card {
+    .unlock-course-card {
         position: static;
         width: 100%;
         margin-top: 2rem;
@@ -459,15 +459,15 @@ main {
 }
 
 @media (max-width: 768px) {
-    .hero h1 {
+    .unlock-hero h1 {
         font-size: 2.2rem;
     }
 
-    .hero .subtitle {
+    .unlock-hero .unlock-subtitle {
         font-size: 1.2rem;
     }
 
-    .course-container {
+    .unlock-course-container {
         display: flex;
         gap: 2rem;
         margin-left: 1rem;
@@ -475,15 +475,15 @@ main {
         position: relative;
     }
 
-    .search-bar {
+    .unlock-search-bar {
         width: 100%;
     }
 
-    .nav-links {
+    .unlock-nav-links {
         flex-wrap: wrap;
     }
 
-    .what-youll-learn ul {
+    .unlock-what-youll-learn ul {
         grid-template-columns: 1fr;
     }
 }
