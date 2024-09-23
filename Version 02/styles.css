@@ -1,0 +1,465 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    line-height: 1.4;
+    color: #1c1d1f;
+    background-color: #fff;
+}
+
+/* Header styles */
+header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 0.5rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;max-width: 1340px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 34px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;gap: 1.5rem;
+}
+
+.search-bar {
+    display: flex;
+    border: 1px solid #1c1d1f;
+    border-radius: 50px;
+    overflow: hidden;
+    width: 400px;
+}
+
+.search-bar input {
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+.search-bar button {
+    background-color: #f7f9fa;
+    color: #1c1d1f;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.auth-buttons button, .auth-buttons .cart-icon {
+    padding: 0.5rem 1rem;
+    border: 1px solid #1c1d1f;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    color: #1c1d1f;
+}
+
+.auth-buttons .signup {
+    background-color: #1c1d1f;
+    color: white;
+}
+
+.auth-buttons .language {
+    border: none;
+}
+
+/* Main content styles */
+main {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+/* Hero section styles */
+.hero-container {
+    background-color: #1c1d1f;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    position: relative;
+    color: white;
+}
+
+.what-youll-learn {
+    border: 1px solid #d1d7dc;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2.5rem;
+    margin-right: 2rem;
+}
+
+.breadcrumb {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.breadcrumb a {
+    color: #cec0fc;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    line-height: 1.2;
+}
+
+.hero .subtitle {
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+    font-weight: 400;
+}
+
+.course-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.bestseller {
+    background-color: #eceb98;
+    color: #3d3c0a;
+    padding: 0.3rem 0.6rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.rating {
+    color: #f69c0d;
+    font-weight: 700;
+}
+
+.reviews, .students {
+    font-size: 0.95rem;
+}
+
+.author, .last-updated {
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+}
+
+/* Course container styles */
+.course-container {
+    display: flex;
+    gap: 2rem;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.course-info {
+    flex: 1;
+    max-width: calc(100% - 400px);
+}
+
+/* What you'll learn section styles */
+.what-youll-learn {
+    border: 1px solid #d1d7dc;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.what-youll-learn h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.what-youll-learn ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    list-style-type: none;
+}
+
+.what-youll-learn li {
+    display: flex;
+    align-items: flex-start;
+    font-size: 0.95rem;
+    padding-right: 0.5rem;
+}
+
+.what-youll-learn li::before {
+    content: "✓";
+    margin-right: 0.5rem;
+    color: #1c1d1f;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+/* Related topics styles */
+.related-topics {
+    margin-bottom: 2.5rem;
+}
+
+.related-topics h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.topic-tags {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+}
+
+.topic-tag {
+    padding: 0.6rem 1.2rem;
+    border: 1px solid #1c1d1f;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #1c1d1f;
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+/* Course includes styles */
+.course-includes {
+    margin-bottom: 2.5rem;
+}
+
+.course-includes h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.course-includes ul {
+    list-style-type: none;
+}
+
+.course-includes li {
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+}
+
+.course-includes i {
+    margin-right: 0.8rem;
+}
+
+/* Course card styles */
+.course-card {
+    width: 350px;
+    background-color: white;
+    border: 1px solid #d1d7dc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.preview-image {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.preview-image img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.preview-image p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.card-tabs {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.card-tabs button {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid #d1d7dc;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.card-tabs button.active {
+    background-color: #f7f9fa;border-bottom: none;
+}
+
+.course-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #1c1d1f;
+}
+
+.course-card p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #1c1d1f;
+}
+
+.start-subscription, .add-to-cart {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;margin-bottom: 1rem;
+}
+
+.start-subscription {
+    background-color: #a435f0;
+    color: white;
+}
+
+.add-to-cart {
+    background-color: #1c1d1f;
+    color: white;
+}
+
+.subscription-price, .cancel-anytime, .or, .course-price, .money-back, .full-lifetime {
+    text-align: center;
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+    color: #1c1d1f;
+}
+
+.course-price {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.course-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.coupon-applied {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: #f7f9fa;
+    padding: 0.5rem;
+    border: 1px solid #d1d7dc;
+}
+
+.coupon-applied span {
+    color: #1c1d1f;
+    font-weight: 700;
+}
+
+.remove-coupon {
+    background: none;
+    border: none;
+    color: #1c1d1f;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.coupon-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.coupon-input input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #d1d7dc;
+}
+
+.coupon-input button {
+    padding: 0.5rem 1rem;
+    background-color: #1c1d1f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .course-info {
+        max-width: 100%;
+    }
+
+    .course-card {
+        position: static;
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero .subtitle {
+        font-size: 1.2rem;
+    }
+
+    .course-container {
+        padding: 0 1rem;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+    }
+
+    .what-youll-learn ul {
+        grid-template-columns: 1fr;
+    }
+}
