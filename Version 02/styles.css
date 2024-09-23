@@ -101,33 +101,17 @@ main {
     margin-bottom: 2rem;
     position: relative;
     color: white;
-    z-index: 1; /* Ensure hero-container is above the background */
 }
 
-/* Full-width background */
 .full-width-view {
     position: absolute;
     top: 0;
-    left: 50%;
-    transform: translateX(-50vw);
-    width: 100vw; /* Full viewport width */
+    left: 50%; /* Start from the center of the hero-container */
+    transform: translateX(-50vw); /* Extend the view to the left edge of the screen */
+    width: 100vw; /* Stretch across the entire width of the viewport */
     height: 100%; /* Match the height of the hero-container */
-    background-color: #1c1d1f;
-    z-index: -1; /* Place behind hero-container */
-}
-
-/* Payhip-specific overrides */
-@media all and (min-width: 0) {
-    .payhip-embed .hero-container, .payhip-embed .full-width-view {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-}
-
-/* Ensure this is not applied locally */
-body:not(.payhip-embed) .hero-container, body:not(.payhip-embed) .full-width-view {
-    padding: unset;
-    margin: unset;
+    background-color: #1c1d1f; /* Same background color as hero-container */
+    z-index: -1; /* Place it behind the hero content */
 }
 
 .what-youll-learn {
