@@ -118,7 +118,6 @@ main {
     border: 1px solid #d1d7dc;
     padding: 1.5rem 2rem;
     margin-bottom: 2.5rem;
-    margin-right: 2rem;
 }
 
 .breadcrumb {
@@ -186,8 +185,20 @@ main {
 .course-container {
     display: flex;
     gap: 2rem;
-    padding: 0 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     position: relative;
+}
+
+.hero-container {
+    background-color: #1c1d1f;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+    color: white;
 }
 
 .course-info {
@@ -457,7 +468,11 @@ main {
     }
 
     .course-container {
-        padding: 0 1rem;
+        display: flex;
+        gap: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        position: relative;
     }
 
     .search-bar {
